@@ -1,0 +1,222 @@
+
+.banner{
+    background: url(../gambar/a.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: black; 
+    overflow-x: hidden;
+}
+.navbar{
+    border-bottom: 1px solid white;
+    overflow-x: hidden;
+}
+.nav-link{
+    color: black !important;
+    letter-spacing: 1px;    
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+.navbar-brand{
+    font-family: 'Playball', cursive;
+    color: black!important;
+}
+.jumbotron h4{
+    font-family: 'Lobster', cursive;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+.jumbotron h2{
+    font-family: 'Playball', cursive;
+    font-size: 40px;
+}
+.mempelai{
+    overflow-x: hidden;
+}
+.mempelai h5{
+    font-family: 'Cookie', cursive;
+}
+.mempelai h6{
+    font-family: 'Satisfy', cursive;
+}
+.mempelai h4{
+    font-family: 'Playball', cursive;
+    font-size: 30px;   
+}
+.mempelai .icon{
+    margin: auto;
+    text-align: center;
+    
+}
+.mempelai .icon{
+    margin-top: 90px;
+}
+.mempelai .icon{
+    width: 100px;
+    border: 2px solid grey;
+    box-shadow: px 0px 1px 1px grey;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.mempelai {
+    position: relative;
+    background: url(../gambar/mempelai.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: black;
+}
+.acara{
+    background-image: url(../gambar/Acara.png);
+}
+.acara h5{
+    font-family: 'Lobster', cursive;
+}
+.acara h3{
+    font-family: 'Lobster', cursive;
+}
+.resepsi{
+    margin-top: 50px;
+}
+.protokol img{
+    margin-bottom: 15px;
+}
+.lokasi iframe{
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    margin-bottom: 100px;
+}
+.lokasi {
+    background-image: url(../gambar/lokasi.png);
+}
+.lokasi h5{
+    font-family: 'Lobster', cursive;
+}
+.footer{
+    background-color:white;
+}
+.protokol{
+    background-color:white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 1px 1px 1px 1px white;
+}
+.lagu{
+    position: fixed;
+    bottom: 0;
+    z-index: 99999;
+    margin-bottom: 20px;
+}
+.lagu .btn{
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+/* Versi Deskop */
+@media (min-width: 992px) {
+    .banner{
+        margin-top: -70px;
+    }
+    .banner .jumbotron{
+        margin-left: 250px;
+        margin-bottom: 250px;
+    }
+    .nav-link{
+    margin-left: 20px;
+    font-size: 18px;
+    }
+    .navbar-brand{
+        font-size: 25px;
+        font-weight:500;
+    }
+    .mempelai h6{
+    font-size: 15px;
+    }
+    .mempelai .icon{
+        width: 100px;
+        border: 2px solid grey;
+        box-shadow: px 0px 1px 1px grey;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+/* Versi Mobile*/
+@media (max-width: 576px) {
+
+    .navbar{
+        background-color: white;;
+    }
+    .navbar-brand{
+        font-weight: 500;
+    }
+    .banner{
+        height: 640px;
+    }
+    .banner .container
+    {
+        margin-top: 100px;
+    }    
+    .jumbotron h4{
+    font-family: 'Lobster', cursive;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 30px;
+    }
+    .jumbotron h2{
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    }    
+    .mempelai h5{
+    font-family: 'Cookie', cursive;
+    font-size: 18px;    
+    }
+    .mempelai h4{
+        font-family: 'Playball', cursive;
+        font-size: 25px !important;   
+    }
+    .mempelai img{
+        width: 150px;
+    }
+    .mempelai h6{
+        font-size: 11px;
+    }
+    .mempelai .icon img{
+        width: 70px;
+    }
+    .mempelai .icon{
+        width: 80px;
+        border: 2px solid grey;
+        box-shadow: px 0px 1px 1px grey;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .mempelai h4{
+        font-size: 20px;
+    }
+    .acara .jam,
+    .acara .alamat{
+        padding-top: 50px;
+    }
+    .acara i{
+        font-size: 20px;
+    }
+    .acara h3{
+        font-size: 30px;
+    }
+    .protokol h5{
+        font-size: 15px;
+    }
+    .footer{
+        font-size: 15px;
+    }
+    .footer h6{
+        font-size: 12px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
