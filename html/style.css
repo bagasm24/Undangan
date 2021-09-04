@@ -70,6 +70,9 @@
 }
 .acara{
     background-image: url(../gambar/mempelai.jpg);
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 .acara h5{
     font-family: 'Lobster', cursive;
@@ -92,6 +95,9 @@
 }
 .lokasi {
     background-image: url(../gambar/mempelai.jpg);
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 .lokasi h5{
     font-family: 'Lobster', cursive;
